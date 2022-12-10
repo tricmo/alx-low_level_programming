@@ -15,7 +15,7 @@ int main(void)
 	int d1;
 	int d2;
 
-	while (a < 98)
+	while (a <= 98)
 	{
 		b1 = (a / 10 + '0');
 		b2 = (a % 10 + '0');
