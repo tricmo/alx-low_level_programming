@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - A function that appends src and dest and adds a terminating null byte
+ * _strcat - A function that appends src, dest and adds a terminating null byte
  * @dest: Input
  * @src: Input
  * Return: void
