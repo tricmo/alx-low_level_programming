@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * _strcat - A function that appends src and dest and adds a terminating null byte
  * @dest: Input
  * @src: Input
- *
  * Return: void
  */
 char *_strcat(char *dest, char *src)
@@ -24,7 +22,6 @@ char *_strcat(char *dest, char *src)
 		i++;
 		j++;
 	}
-
 	dest[i] = '\0';
 	return (dest);
 }
