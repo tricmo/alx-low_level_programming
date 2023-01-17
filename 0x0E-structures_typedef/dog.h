@@ -1,8 +1,8 @@
 /**
- * struct my_struct - Short description
- * @a: First member
- * @b: Second member
- * @c: Third member
+ * struct dog - a dog structure
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
  *
  * Description: Longer description
  **/
@@ -12,3 +12,4 @@ struct dog
 	float age;
 	char *owner;
 };
+
