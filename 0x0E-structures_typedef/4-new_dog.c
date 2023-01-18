@@ -14,12 +14,15 @@ dog_t *new_dog(char *name, float age, char *owner);
 
 	struct dog *d_dog = NULL;
 
-	for (attrib1 = 0; name[attrib1] != '\0'; attrib1++)
-		attrib2 = 0;
+	attrib1 = 0;
+	while (name[attrib1] != '\0')
+		attrib1++;
 
-	for (attrib2 = 0; owner[attrib2] != '\0'; attrib2++)
-		d_dog = malloc(sizeof(struct dog));
+	attrib2 = 0;
+	while (name[attrib2] != '\0')
+		attrib2++;
 
+	d_dog = malloc(sizeof(struct dog));
 	if (d_dog == NULL)
 	{
 		free(d_dog);
