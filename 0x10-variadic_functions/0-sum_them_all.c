@@ -5,7 +5,7 @@
  * @n: first constant input
  * ...: variable number of parameter
  * Return: if n != 0 - sum of all parameters
- * 	Otherwise - 0.
+ *	Otherwise - 0.
  */
 
 int sum_them_all(const unsigned int n, ...);
@@ -19,7 +19,7 @@ int sum_them_all(const unsigned int n, ...);
 	while (i < n)
 		sum += va_arg(ap, int);
 		i++;
-	
+
 	va_end(ap);
 	return (sum);
 }
